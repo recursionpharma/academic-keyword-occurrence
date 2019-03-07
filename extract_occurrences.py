@@ -1,89 +1,96 @@
 #!/usr/bin/env python
 # By: Volker Strobel
-from bs4 import BeautifulSoup
-import requests
+from datetime import datetime
+import os
 import re
-import time
 import sys
+import time
 
+import backoff
+from bs4 import BeautifulSoup
 import docopt
+import pandas as pd
+import progressbar
+import requests
 
 
 __doc__ = """Extract Occurrences.
+
 Usage:
-  extract_occurrences.py [--term=<term>] [--terms-filepath=<terms-filepath>]
+  extract_occurrences.py (--term=<term> | --terms-filepath=<terms-filepath>)
+                         (--start-year=<start-year>)
+                         [--end-year=<end-year>]
+                         [--output-filepath=<output-filepath>]
+  extract_occurrences.py (-h | --help)
+
 Options:
-  -h --help     Show this screen.
+  -h --help                              Show this screen.
+  --term=<term>                          Term to search for.
+  --terms-filepath=<terms-filepath>      Filepath with list of terms to search for.
+  --start-year=<start-year>              Start year.
+  --end-year=<end-year>                  End year; if not specified, defaults to the current year.
+  --output-filepath=<output-filepath>    Filepath to save results to [default: out.csv].
 """
 
 
-def get_num_results(search_term, start_date, end_date):
+@backoff.on_exception(backoff.expo, Exception, max_time=10)
+def get_num_results(search_term, start_date, end_date, cookies=None):
     """
     Helper method, sends HTTP request and returns response payload.
     """
 
     # Open website and read html
     headers = {"user_agent": 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36'}
-    query_params = { 'q' : search_term, 'as_ylo' : start_date, 'as_yhi' : end_date}
-    url = "https://scholar.google.com/scholar?as_vis=1&hl=en&as_sdt=1,5&"
-    resp = requests.get(url, params=query_params, headers=headers)
+    query_params = { 'q' : search_term, 'as_ylo' : start_date, 'as_yhi' : end_date, "as_vis": 1, "hl": "en", "as_sdt": "1,5"}
+    url = "https://scholar.google.com/scholar"
+    resp = requests.get(url, params=query_params, headers=headers, cookies=cookies)
 
     # Create soup for parsing HTML and extracting the relevant information
     soup = BeautifulSoup(resp.text, 'html.parser')
     div_results = soup.find("div", {"id": "gs_ab_md"}) # find line 'About x results (y sec)
+    if not div_results:
+        raise Exception(f"Couldn't extract number of results for {search_term} {start_date} {end_date} {resp.text}")
 
-    if div_results != None:
-        res = re.findall(r'(\d+),?(\d+)?,?(\d+)?\s', div_results.text) # extract number of search results
-        if not res:
-            num_results = '0'
-        else:
-            num_results = ''.join(res[0]) # convert string to number
+    res = re.findall(r'(\d+),?(\d+)?,?(\d+)?\s', div_results.text) # extract number of search results
+    num_results = 0 if not res else int(''.join(res[0])) # convert string to number
 
-        success = True
+    return num_results, resp.cookies
+
+
+def get_range(search_terms, start_date, end_date, existing=None, output_filepath=None):
+
+    results = existing if not existing.empty else pd.DataFrame(columns=["search_term", "year", "num_results"])
+    existing_term_years = set((res[0], res[1]) for res in results.values.tolist())
+    term_years = set((term, year) for term in search_terms
+                     for year in range(start_date, end_date + 1)) - existing_term_years
+
+    cookies = None
+    for term, year in progressbar.progressbar(term_years):
+        num_results, cookies = get_num_results(term, year, year, cookies=cookies)
+        current_results = {"search_term": term, "year": year, "num_results": num_results}
+        results = results.append(pd.DataFrame(data=[current_results]), sort=False)
+        results.to_csv(output_filepath, index=False)
+        time.sleep(2)
+
+
+def main():
+    args = docopt.docopt(__doc__)
+    if args["--term"]:
+        terms = [args["--term"]]
+    elif args["--terms-filepath"]:
+        terms = open(args["--terms-filepath"]).readlines()
     else:
-        success = False
-        num_results = 0
+        pass
+    end_year = int(args["--end-year"]) if args["--end-year"] else datetime.now().year
 
-    return num_results, success
+    if os.path.isfile(args["--output-filepath"]):
+        existing = pd.read_csv(args["--output-filepath"])
+    else:
+        existing = None
+
+    get_range(terms, int(args["--start-year"]), end_year, existing=existing, output_filepath=args["--output-filepath"])
 
 
-def get_range(search_term, start_date, end_date, output_file="out.csv"):
-
-    try:
-        fp = open(output_file, 'w')
-    except IOError:
-        fp = open(output_file, 'w+')
-    fp.write("year,results\n")
-    print("year,results")
-
-    for date in range(start_date, end_date + 1):
-
-        num_results, success = get_num_results(search_term, date, date)
-        if not(success):
-            print("It seems that you made too many requests to Google Scholar. Please wait a couple of hours and try again.")
-            break
-        year_results = "{0},{1}".format(date, num_results)
-        print(year_results)
-        fp.write(year_results + '\n')
-        time.sleep(0.8)
-
-    fp.close()
 
 if __name__ == "__main__":
-
-    if len(sys.argv) < 3:
-        print("******")
-        print("Academic word relevance")
-        print("******")
-        print("")
-        print("Usage: python extract_occurrences.py '<search term>' <start date> <end date> ['<output_file>']")
-
-    else:
-        search_term = sys.argv[1]
-        start_date = int(sys.argv[2])
-        end_date = int(sys.argv[3])
-        if len(sys.argv) > 4:
-            output_file = sys.argv[4]
-            get_range(search_term, start_date, end_date, output_file)
-        else:
-            get_range(search_term, start_date, end_date)
+    exit(main())
