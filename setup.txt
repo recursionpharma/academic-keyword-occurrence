@@ -1,0 +1,3 @@
+conda create -n academic-keyword-occurrence python=2.7
+conda activate academic-keyword-occurrence
+pip install -r requirements.txt

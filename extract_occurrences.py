@@ -2,6 +2,7 @@
 # By: Volker Strobel
 from bs4 import BeautifulSoup
 import urllib
+import requests
 from urllib2 import Request, build_opener, HTTPCookieProcessor
 from cookielib import LWPCookieJar
 import re
@@ -20,13 +21,12 @@ def get_num_results(search_term, start_date, end_date):
     """
 
     # Open website and read html
-    user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36'
+    headers = {"user_agent": 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36'}
     query_params = { 'q' : search_term, 'as_ylo' : start_date, 'as_yhi' : end_date}
     url = "https://scholar.google.com/scholar?as_vis=1&hl=en&as_sdt=1,5&" + urllib.urlencode(query_params)
-    opener = build_opener(HTTPCookieProcessor(cookies))
-    request = Request(url=url, headers={'User-Agent': user_agent})
-    handler = opener.open(request)
-    html = handler.read() 
+    # resp = requests.get(url, params=query_params, headers=headers)
+    resp = requests.get(url, params=query_params)
+    print(resp.__dict__)
 
     # Create soup for parsing HTML and extracting the relevant information
     soup = BeautifulSoup(html, 'html.parser')
