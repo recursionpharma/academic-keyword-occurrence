@@ -6,6 +6,17 @@ import re
 import time
 import sys
 
+import docopt
+
+
+__doc__ = """Extract Occurrences.
+Usage:
+  extract_occurrences.py [--term=<term>] [--terms-filepath=<terms-filepath>]
+Options:
+  -h --help     Show this screen.
+"""
+
+
 def get_num_results(search_term, start_date, end_date):
     """
     Helper method, sends HTTP request and returns response payload.
