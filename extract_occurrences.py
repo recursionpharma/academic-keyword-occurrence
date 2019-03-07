@@ -78,7 +78,7 @@ def main():
     if args["--term"]:
         terms = [args["--term"]]
     elif args["--terms-filepath"]:
-        terms = open(args["--terms-filepath"]).readlines()
+        terms = [l.strip() for l in open(args["--terms-filepath"]).readlines()]
     else:
         pass
     end_year = int(args["--end-year"]) if args["--end-year"] else datetime.now().year
