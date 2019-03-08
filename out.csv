@@ -1,61 +1,937 @@
 search_term,year,num_results
-fibrosis,2009,106000
-fibrosis,2010,114000
-fibrosis,2011,123000
-fibrosis,2012,139000
-fibrosis,2013,127000
-fibrosis,2014,131000
-fibrosis,2015,123000
-fibrosis,2016,86400
-fibrosis,2017,78800
-fibrosis,2018,79100
-fibrosis,2019,19000
-Uclerative Colitis,2017,0
-Pseudomonas aeruginosa,2017,0
-Cardiovascular disease,2013,0
-Cisplatin-induced AKI,2013,0
-small molecule biologic mimic,2011,0
-ALS/FTD,2018,0
-Hepatocellular carcinoma,2018,0
-IO,2017,0
-Immunotherapy related adverse events,2015,0
-M2 Polarization,2019,0
-Fibrodysplasia ossificans progressiva,2013,0
-Bladder cancer,2009,0
+Follicle-stimulating hormone,2015,9930
+Spinal Injury,2010,57000
+Cardiac Fibrosis,2015,40000
+Stimulate cold tumors,2015,21600
+Dendritic Cells,2013,84400
+amyotrophic lateral sclerosis,2016,15500
+Chronic Kidney Disease associated Heart Failure,2010,42900
+Type 2 Diabetes,2017,180000
+Idiopathic basal ganglia calcification,2009,950
+Ulcerative Colitis,2016,19700
+Kallman Syndrome,2016,0
+Lupus,2019,7200
+Type 1 Diabetes,2010,646000
+Idiopathic inflammatory myopathy,2014,2420
+Dermatofibrosarcoma protuberans,2017,0
+Guillian Barre syndrome,2010,204
+Secondary lymphedema,2010,1410
+Sjorgens,2009,4
+hypernephroma,2018,177
+Many other diseases,2013,1190000
+hepatic cirrhosis,2016,26200
+amyotrophic lateral sclerosis,2009,9000
+Celiac Disease,2011,8960
+Secondary lymphedema,2017,2710
+hypernephroma,2013,0
+Ulcerative Colitis,2011,14400
+Chronic Obstructive Pulmonary,2015,59100
+IO,2018,83600
+Solid tumors,2012,93100
+Type 1 Diabetes,2017,291000
+brittle bone diseases,2012,4760
+Alopecia areata,2010,1440
+Sjorgens,2014,3
+ETEC infection,2011,949
+Diabetic Cardiomyopathy,2019,3780
+Bullous pemphigoid,2014,1530
+Fibrodysplasia ossificans progressiva,2018,367
+Cryopyrin associated periodic syndrome,2010,308
+hepatic cirrhosis,2013,24400
+Pulmonary Arterial Hypertension,2010,23100
+Coronary heart disease,2015,175000
+Alzheimers,2017,29400
+Hepatocellular carcinoma,2011,45500
+Russell-Silver syndrome,2017,188
+Common variable immunodeficiency,2009,15700
+T-Cell Activation,2010,0
+Idopathic Pulmonary Fibrosis,2015,12100
+Alzheimers,2013,26000
+ALS/FTD,2013,0
+Idiopathic basal ganglia calcification,2019,151
+Type 2 Diabetes,2016,291000
+Cisplatin-induced AKI,2014,792
+Multiple Sclerosis,2015,76200
+Solid tumors,2015,0
+Stills,2017,7080
+Ischemic heart disease,2017,0
+Postmenopausal Osteoperosis,2009,6
+Cisplatin-induced AKI,2019,319
+ALS,2010,629000
+Cancer,2014,757000
+Guillian Barre syndrome,2012,221
+Angina,2014,36200
+Natural killer cells,2018,29300
+Multiple sclerosis,2016,74200
+Rheumatoid Arthritis,2018,44000
+Cardiovascular disease,2017,221000
+Spinal Injury,2018,40500
+Renal cell carcinoma,2012,58400
+Gastric,2018,87500
+Ischemic heart disease,2009,65200
+Cholera,2019,3290
+Polycystic ovarian syndrome,2015,10600
+hemophagocytic lymphohistiocytosis,2010,723
+Multiple sclerosis,2013,88400
+X-linked hyper-IgM syndrome,2014,340
+Type 2 Diabetes,2019,0
+Loeys Dietz,2012,574
+Common variable immunodeficiency,2013,21700
+Lupus,2010,0
+Renal disease,2010,330000
+Osteoperosis,2014,41
+Ovarian Cancer,2013,93500
+Spinal Injury,2013,67300
+Transplant rejection,2009,15300
+Osteoarthritis,2014,51400
+Vogt Koyanagi Harada,2009,473
+scleroderma,2011,6180
+Multiple sclerosis,2010,66600
+Arrhythmogenic right ventricular cardiomyopathy,2016,0
+Postmenopausal Osteoperosis,2015,0
+Treg Suppression,2015,8100
+Graft versus host disease,2012,0
+Innate immunity,2017,53600
+Celiac Disease,2010,7830
+Behcet's,2010,856
+Chronic Kidney Disease associated Heart Failure,2014,66400
+Polycystic ovarian syndrome,2013,0
+Pertussis,2010,0
+Angina,2013,39000
+PD-L1,2010,0
+Macrophage activation syndrome,2016,0
+Chronic Obstructive Pulmonary,2017,54500
+Multiple Sclerosis,2014,0
+Vogt Koyanagi Harada,2016,0
+Guillian Barre syndrome,2013,234
+Dyshidrotic eczema,2018,168
+Cardiac Fibrosis,2019,7460
+Hepatocellular carcinoma,2018,47100
+hemophagocytic lymphohistiocytosis,2014,0
+Graft versus host disease,2011,26400
+Ulcerative Colitis,2015,19100
+Behcet's,2013,1140
+Cisplatin-induced Acute Kidney Injury,2013,2730
+X-linked hyper-IgM syndrome,2013,276
+Chronic Kidney Disease associated Heart Failure,2009,39700
+Polycystic ovarian syndrome,2010,7060
+Sjorgens,2017,2
+General AID,2015,249000
+Camurati Engleman,2012,0
+Bullous pemphigoid,2009,1310
+brittle bone diseases,2016,5400
+Cisplatin-induced AKI,2018,1190
+PD-L1,2013,3540
 Renal cell carcinoma,2016,0
-General AID,2012,0
-Follicle-stimulating hormone,2013,0
-Gastric,2015,0
-Pulmonary Arterial Hypertension,2011,0
-Cardiovascular disease,2016,0
-Lupus,2015,0
-Idiopathic inflammatory myopathy,2011,0
-Parkinsons,2010,0
-Idopathic Pulmonary Fibrosis,2010,0
-Frontotemporal Dementia,2016,0
-Macrophage activation syndrome,2014,0
-Common variable immunodeficiency,2018,0
-Camurati Engleman,2013,0
-Ovarian Cancer,2010,0
-Polycystic ovarian syndrome,2019,0
-small molecule biologic mimic,2012,0
-hemophagocytic lymphohistiocytosis,2017,0
-Dermatofibrosarcoma protuberans,2016,0
-PD-L1,2018,0
-Ischemic heart disease,2013,0
-Nonalcoholic steatohepatitis,2019,0
-Osteoarthritis,2016,0
-Transplant rejection,2013,0
-Bladder cancer,2016,0
-Renal cell carcinoma,2009,0
-hepatic cirrhosis,2019,0
+T-Cell Activation,2012,88500
+Non-small cell lung cancer,2010,30000
+Type 1 Diabetes,2013,656000
+Camurati Engleman,2016,1
+Lou Gehrig's disease,2019,132
+Clostridium difficile infection,2010,12100
+Dermatofibrosarcoma protuberans,2015,755
+Loeys Dietz,2016,0
+Beckwith-Wiedemann,2015,0
+Chronic Obstructive Pulmonary,2014,59900
+General AID,2018,82100
+Cryopyrin associated periodic syndrome,2016,574
+Immunotherapy related adverse events,2010,5990
+Camurati Engleman,2011,0
+Ulcerative Colitis,2018,21700
+Cryopyrin associated periodic syndrome,2012,425
+Common variable immunodeficiency,2019,4120
+Cardiovascular disease,2010,607000
+small molecule biologic mimic,2015,0
+Atopic dermatitis,2015,14900
+Parkinsons,2012,15200
+Follicle-stimulating hormone,2013,10000
+M2 polarization,2015,25000
+Crohn's Disease,2009,9010
+Enterotoxigenic Escherichia coli,2009,2060
+Coronary heart disease,2019,18300
+Postmenopausal Osteoperosis,2016,0
+Diabetic Cardiomyopathy,2012,15600
+hepatic cirrhosis,2010,18000
+Follicle-stimulating hormone,2016,10400
+Cancer,2013,952000
+Guillian Barre syndrome,2016,261
+Diabetic Cardiomyopathy,2016,18200
+Adjuvant therapy,2013,75000
+Immunotherapy related adverse events,2014,9240
+PD-L1,2012,2530
+Cancer,2017,0
+Clostridium difficile infection,2011,12700
+Transplant rejection,2015,18800
+Treg Suppression,2018,0
+Beckwith-Wiedemann,2016,1200
+Common variable immunodeficiency,2010,16000
+Frontotemporal Dementia,2012,5410
+Bronchopulmonary dysplasia,2019,889
+Diabetic Cardiomyopathy,2011,13800
+Stimulate cold tumors,2013,19400
+viral/oncology,2009,141
+Kallman Syndrome,2013,416
+Chronic Kidney Disease,2013,158000
+Polycystic ovarian syndrome,2011,0
+Cardiovascular Disease,2010,605000
+Arrhythmogenic right ventricular cardiomyopathy,2015,0
+Secondary lymphedema,2009,1640
+Nonalcoholic fatty liver disease,2012,11500
+hemophagocytic lymphohistiocytosis,2018,1880
+Asthma,2012,0
+Idopathic Pulmonary Fibrosis,2017,13700
+Russell-Silver syndrome,2016,181
+Adjuvant therapy,2016,65100
+Postmenopausal Osteoperosis,2014,18
+M2 polarization,2012,0
+Stimulate cold tumors,2010,18600
+Chronic Obstructive Pulmonary Disease,2014,59000
+Chronic Kidney Disease associated Heart Failure,2017,64800
+Kallman Syndrome,2010,0
+Dipltheria,2014,0
+Solid tumors,2018,54200
+Alzheimers,2016,29400
+Behcet's,2019,193
+Alopecia areata,2017,2390
+small molecule biologic mimic,2011,17500
+X-linked hyper-IgM syndrome,2019,84
+Hemolytic uremic syndrome,2010,0
+Loeys Dietz,2011,0
+Sjorgens,2016,0
+PD-L1,2016,12700
+Follicle-stimulating hormone,2012,9770
+M2 polarization,2019,5500
+IO,2013,160000
+Psoriasis,2009,15300
+scleroderma,2010,5550
+Methicillin-resistant Staphylococcus aureus,2015,18500
+Atopic dermatitis,2010,10300
+ALS/FTD,2017,864
+Innate immunity,2013,77600
+Camurati Engleman,2015,1
+Idopathic Pulmonary Fibrosis,2010,7650
+Parkinsons,2016,15600
+Osteoperosis,2013,29
+Cisplatin-induced Acute Kidney Injury,2018,3990
+Frontotemporal Dementia,2014,6670
+X-linked hyper-IgM syndrome,2010,247
+Rheumatoid Arthritis,2016,68900
+Immunotherapy related adverse events,2017,14800
+Hemolytic uremic syndrome,2013,4350
+Coronary heart disease,2014,181000
+Cardiovascular Disease,2013,0
+PD-L1,2011,1930
+Frontotemporal Dementia,2018,0
+Psoriasis,2014,25400
+Arrhythmogenic right ventricular cardiomyopathy,2017,0
+Cholera,2010,18400
+Diabetic Cardiomyopathy,2017,18800
+ETEC infection,2009,808
+Chronic Kidney Disease,2009,105000
+Chronic Obstructive Pulmonary Disease,2011,47300
+brittle bone diseases,2010,3880
+Many other diseases,2018,167000
+Lupus,2017,46700
+Pseudomonas aeruginosa,2018,32800
+Crohn's Disease,2018,14000
+PD-L1,2014,5070
+Solid tumors,2013,91600
+ETEC infection,2014,1280
+hypernephroma,2010,161
+General AID,2011,385000
+Psoriasis,2018,24500
+Idiopathic inflammatory myopathy,2017,3060
+Macrophage activation syndrome,2012,32200
+Enterotoxigenic Escherichia coli,2015,3230
+Celiac Disease,2015,12500
+Dermatofibrosarcoma protuberans,2011,734
+Dendritic Cells,2011,85100
+Secondary lymphedema,2019,0
+Lou Gehrig's disease,2011,822
+Behcet's,2009,866
+Macular Degeneration,2009,9890
+Bladder cancer,2011,51000
+Cisplatin-induced AKI,2009,304
+Cardiac Fibrosis,2010,24900
+brittle bone diseases,2013,5450
+Osteoperosis,2017,31
+IO,2012,146000
+Graft versus host disease,2019,0
+Renal cell carcinoma,2013,58600
+Loeys Dietz,2009,317
+Nonalcoholic steatohepatitis,2015,9170
+Dendritic Cells,2018,0
+Multiple Sclerosis,2011,74000
+Kallman Syndrome,2018,278
+Transplant rejection,2012,20800
+Multiple sclerosis,2014,86100
+Psoriasis,2015,0
 Vogt Koyanagi Harada,2018,0
-Multiple sclerosis,2018,0
+Bladder cancer,2016,55900
+Common variable immunodeficiency,2011,19800
+T-Cell Activation,2016,59000
+Russell-Silver syndrome,2011,125
+Cardiovascular Disease,2016,324000
+Parkinsons,2015,15400
+Fibrodysplasia ossificans progressiva,2010,231
+Type 2 Diabetes,2013,652000
+scleroderma,2012,6870
+Cisplatin-induced Acute Kidney Injury,2017,0
+Uveitis,2012,8380
+Loeys Dietz,2014,0
+ETEC infection,2016,0
+hemophagocytic lymphohistiocytosis,2015,0
+viral/oncology,2011,0
+systemic lupus erythematosus,2015,25400
+Treg Suppression,2012,6740
+Natural killer cells,2013,34100
+DC activation,2012,237000
+PD-L1,2017,17900
+Dipltheria,2011,0
+Sjorgens,2019,1
+Fibrodysplasia ossificans progressiva,2015,0
+Asthma,2019,14600
+Pulmonary Arterial Hypertension,2015,33500
+Chronic Kidney Disease associated Heart Failure,2018,48200
+Idiopathic inflammatory myopathy,2012,2210
+Treg Suppression,2013,7270
+small molecule biologic mimic,2014,17700
+Multiple Sclerosis,2013,87000
+Asthma,2015,91200
+Chronic Obstructive Pulmonary Disease,2010,41100
+Idiopathic basal ganglia calcification,2010,387
+Macular Degeneration,2013,12800
+X-linked hyper-IgM syndrome,2018,0
+Pertussis,2015,10100
+Nonalcoholic steatohepatitis,2010,4610
+Loeys Dietz,2010,0
+Uclerative Colitis,2016,12300
+Type 2 Diabetes,2014,586000
+Pertussis,2012,11100
+hypernephroma,2011,181
+Kallman Syndrome,2019,63
+Celiac Disease,2014,12000
+Pseudomonas aeruginosa,2014,46200
+Stimulate cold tumors,2009,0
+Common variable immunodeficiency,2018,0
+Type 2 Diabetes,2015,0
+Macrophage activation syndrome,2018,33400
+ALS,2016,318000
+Adjuvant therapy,2012,0
+Pseudomonas aeruginosa,2015,44800
+T-Cell Activation,2009,77400
+M2 Polarization,2013,0
+Osteoarthritis,2010,0
+Transplant rejection,2016,19400
+Cancer,2019,56700
+Fibrodysplasia ossificans progressiva,2009,319
+viral/oncology,2017,119
+Many other diseases,2012,1090000
+small molecule biologic mimic,2019,4160
+Idopathic Pulmonary Fibrosis,2009,8230
+Methicillin-resistant Staphylococcus aureus,2017,20000
+ETEC infection,2013,1250
+Adjuvant therapy,2018,41000
+Crohn's Disease,2013,12000
+Chronic Obstructive Pulmonary Disease,2016,54100
+Osteoperosis,2019,3
+systemic lupus erythematosus,2014,25200
+Cardiovascular disease,2009,595000
+Cisplatin-induced Acute Kidney Injury,2009,0
+Angina,2011,34900
+Atopic dermatitis,2011,13200
+Nonalcoholic steatohepatitis,2017,0
+X-linked hyper-IgM syndrome,2016,313
+Multiple Sclerosis,2012,0
+Rheumatoid Arthritis,2011,67900
+Russell-Silver syndrome,2010,129
+Osteoarthritis,2019,7900
+Idiopathic inflammatory myopathy,2009,2770
+Idopathic Pulmonary Fibrosis,2013,11200
+Uveitis,2010,6790
+amyotrophic lateral sclerosis,2013,13600
+Macrophage activation syndrome,2009,24400
+Frontotemporal Dementia,2017,8590
+Celiac Disease,2012,10800
+Coronary heart disease,2018,0
+Ischemic heart disease,2013,79200
+Dyshidrotic eczema,2010,96
+Hemolytic uremic syndrome,2015,0
+Cardiac Fibrosis,2017,40200
+Natural killer cells,2019,0
+Cholera,2012,22600
+Adjuvant therapy,2009,58600
+ALS/FTD,2015,651
+Chronic Kidney Disease associated Heart Failure,2019,14800
+Idiopathic inflammatory myopathy,2018,2730
+Multiple Sclerosis,2016,0
+Hemolytic uremic syndrome,2012,4310
+Cryopyrin associated periodic syndrome,2011,390
+Bullous pemphigoid,2011,1220
+systemic lupus erythematosus,2009,0
+Uclerative Colitis,2015,0
+Pertussis,2013,10700
+Hemolytic uremic syndrome,2014,4450
+Osteoperosis,2012,32
+Macrophage activation syndrome,2017,0
+Clostridium difficile infection,2018,17800
+Dermatofibrosarcoma protuberans,2018,740
+Innate immunity,2012,0
+Bullous pemphigoid,2013,0
+Hemolytic uremic syndrome,2017,0
+Coronary heart disease,2011,207000
+scleroderma,2014,7450
+Chronic Obstructive Pulmonary,2019,11100
+Transplant rejection,2017,19800
+hepatic cirrhosis,2017,25700
+Macular Degeneration,2016,15100
+Kallman Syndrome,2011,234
+Secondary lymphedema,2011,1720
+Non-small cell lung cancer,2013,50800
+Dyshidrotic eczema,2017,127
+Atopic dermatitis,2012,12700
+hypernephroma,2017,134
+Bladder cancer,2017,52300
+Crohn's Disease,2014,12000
+Clostridium difficile infection,2012,14300
+M2 polarization,2013,22400
+T-Cell Activation,2017,51400
+hypernephroma,2009,183
+Multiple Sclerosis,2017,0
+Guillian Barre syndrome,2018,225
+Non-small cell lung cancer,2014,59300
+systemic lupus erythematosus,2017,25800
+viral/oncology,2015,141
+Stills,2019,976
+Asthma,2013,107000
+Macular Degeneration,2015,15000
+Ischemic heart disease,2011,73000
+Gastric,2014,0
+Ovarian Cancer,2018,48400
+Many other diseases,2010,797000
+Adjuvant therapy,2019,11700
+Natural killer cells,2009,24700
+Vogt Koyanagi Harada,2019,116
+Cisplatin-induced Acute Kidney Injury,2014,2930
+Nonalcoholic steatohepatitis,2011,5550
+Cisplatin-induced Acute Kidney Injury,2015,3610
+Natural killer cells,2012,0
+Type 1 Diabetes,2016,332000
+Cholera,2014,22800
+Pancreatic,2012,140000
+General AID,2019,30000
+Ischemic heart disease,2016,59000
+DC activation,2015,147000
+Cryopyrin associated periodic syndrome,2015,551
+brittle bone diseases,2019,783
+small molecule biologic mimic,2010,15100
+Ulcerative Colitis,2013,18000
+Transplant rejection,2013,19200
+Pulmonary Arterial Hypertension,2014,33500
+Idiopathic inflammatory myopathy,2011,1890
+Celiac Disease,2018,14000
+amyotrophic lateral sclerosis,2015,15200
+Cisplatin-induced Acute Kidney Injury,2011,1990
+M2 polarization,2016,26400
+Secondary lymphedema,2014,2190
+Renal cell carcinoma,2011,49100
+Osteoperosis,2018,26
+Bladder cancer,2009,40900
+Pancreatic,2010,113000
+ALS,2018,0
+M2 Polarization,2011,20800
+Stimulate cold tumors,2019,6480
+Type 1 Diabetes,2009,552000
+Behcet's,2015,1120
+Nonalcoholic fatty liver disease,2014,15100
+Ovarian Cancer,2010,75800
+small molecule biologic mimic,2009,14300
+Dermatofibrosarcoma protuberans,2013,690
+Crohn's Disease,2015,11700
+Renal disease,2015,245000
+Ischemic heart disease,2015,67400
+hypernephroma,2016,130
+Ovarian Cancer,2015,88200
+Hepatocellular carcinoma,2016,66100
+Bronchopulmonary dysplasia,2009,2700
+Lou Gehrig's disease,2009,928
+Angina,2017,0
+Cisplatin-induced AKI,2010,366
+Alopecia areata,2018,2560
+Pseudomonas aeruginosa,2010,34300
+Osteoarthritis,2016,49000
+hepatic cirrhosis,2018,26300
+amyotrophic lateral sclerosis,2010,9350
+Parkinsons,2010,11800
+T-Cell Activation,2013,81400
+Angina,2015,35100
+Pseudomonas aeruginosa,2016,43200
+PD-L1,2019,4300
+scleroderma,2018,8040
+Pulmonary Arterial Hypertension,2009,22400
+Frontotemporal Dementia,2011,5600
+Cancer,2015,595000
+Pancreatic,2009,103000
+small molecule biologic mimic,2016,16600
+Stimulate cold tumors,2017,0
+Asthma,2009,93400
+Cryopyrin associated periodic syndrome,2014,483
+Russell-Silver syndrome,2019,38
+ETEC infection,2018,1390
+Chronic Obstructive Pulmonary,2018,42700
+Frontotemporal Dementia,2019,1610
+Dendritic Cells,2012,89900
+Spinal Injury,2017,52100
+Chronic Kidney Disease associated Heart Failure,2016,0
+Cardiac Fibrosis,2018,31300
+brittle bone diseases,2011,4500
+DC activation,2009,0
+Renal cell carcinoma,2018,44700
+scleroderma,2019,1440
+Spinal Injury,2011,61200
+X-linked hyper-IgM syndrome,2011,272
+Alopecia areata,2019,391
+small molecule biologic mimic,2017,16400
+Uclerative Colitis,2009,9440
+Coronary heart disease,2009,180000
+Idopathic Pulmonary Fibrosis,2016,13200
+Cardiovascular disease,2018,106000
+Beckwith-Wiedemann,2013,1400
+Cholera,2015,22600
+Ovarian Cancer,2011,81200
+Methicillin-resistant Staphylococcus aureus,2019,3860
+Bullous pemphigoid,2017,1590
+ETEC infection,2010,0
+Alzheimers,2010,22300
+Nonalcoholic fatty liver disease,2011,9460
+Chronic Obstructive Pulmonary,2011,48500
+Crohn's Disease,2012,11000
+Bladder cancer,2015,58500
+Multiple sclerosis,2019,11800
+Loeys Dietz,2019,197
+Diabetic Cardiomyopathy,2010,11800
+Parkinsons,2013,0
+Cardiovascular disease,2019,31400
+Pancreatic,2013,132000
+Stills,2009,4960
+Clostridium difficile infection,2016,0
+Idiopathic inflammatory myopathy,2013,2370
+Camurati Engleman,2014,0
+Postmenopausal Osteoperosis,2019,0
+Cardiovascular Disease,2012,688000
+Common variable immunodeficiency,2014,22000
+Cancer,2018,124000
+Stills,2018,0
+M2 polarization,2014,23400
+Immunotherapy related adverse events,2018,0
+Graft versus host disease,2018,0
+Frontotemporal Dementia,2013,6480
+Kallman Syndrome,2014,305
+scleroderma,2009,5600
+Innate immunity,2010,60600
+M2 polarization,2009,15000
+Multiple sclerosis,2015,81200
+IO,2010,136000
+Cholera,2011,21300
+Hemolytic uremic syndrome,2009,0
+Dendritic Cells,2015,72400
+Chronic Kidney Disease,2014,138000
+hypernephroma,2014,154
+Natural killer cells,2016,35300
+Diabetic Cardiomyopathy,2013,16600
+Pancreatic,2011,119000
+Solid tumors,2009,72000
+Type 1 Diabetes,2015,0
+Alopecia areata,2015,2050
+brittle bone diseases,2009,3470
+Innate immunity,2016,64500
+Beckwith-Wiedemann,2010,1060
+ALS,2011,586000
+Nonalcoholic steatohepatitis,2018,11600
+Graft versus host disease,2009,21400
+Cisplatin-induced Acute Kidney Injury,2019,787
+Kallman Syndrome,2012,324
+Bronchopulmonary dysplasia,2017,4210
+Cisplatin-induced Acute Kidney Injury,2016,3310
+Many other diseases,2017,345000
+Immunotherapy related adverse events,2015,9750
+Methicillin-resistant Staphylococcus aureus,2011,0
+Pseudomonas aeruginosa,2009,28500
+Cancer,2012,1050000
+Hepatocellular carcinoma,2012,57400
+Crohn's Disease,2016,0
+Celiac Disease,2016,13100
+Bronchopulmonary dysplasia,2016,0
+Behcet's,2017,1090
+Diabetic Cardiomyopathy,2014,16600
+Ovarian Cancer,2009,0
+Adjuvant therapy,2014,71700
+Pulmonary Arterial Hypertension,2013,32500
+Multiple sclerosis,2012,81800
+Crohn's Disease,2010,9350
+Sjorgens,2018,3
+Russell-Silver syndrome,2015,0
+Parkinsons,2011,13000
+Ulcerative Colitis,2009,12100
+IO,2016,108000
+Chronic Kidney Disease,2017,76000
+Frontotemporal Dementia,2009,3750
+Hemolytic uremic syndrome,2016,4440
+Lupus,2018,35000
+Vogt Koyanagi Harada,2012,611
+Celiac Disease,2013,11900
+Dermatofibrosarcoma protuberans,2010,612
+Idiopathic basal ganglia calcification,2013,917
+Atopic dermatitis,2009,10100
+Ulcerative Colitis,2019,4520
+Renal disease,2009,332000
+Gastric,2013,148000
+Pancreatic,2019,17700
+viral/oncology,2010,0
+Nonalcoholic fatty liver disease,2009,6720
+Chronic Obstructive Pulmonary,2016,54700
+Cancer,2009,1260000
+Angina,2019,5280
+Adjuvant therapy,2010,63900
+ALS,2009,644000
+Alopecia areata,2011,1490
+systemic lupus erythematosus,2010,17600
+Follicle-stimulating hormone,2009,7250
+Macular Degeneration,2011,11900
+ALS/FTD,2012,448
+Many other diseases,2011,993000
+Natural killer cells,2015,0
+Chronic Kidney Disease,2015,138000
+Lupus,2013,49900
+Fibrodysplasia ossificans progressiva,2019,73
+Bladder cancer,2019,9650
+Alzheimers,2011,23700
+Dermatofibrosarcoma protuberans,2014,753
+Cholera,2013,23700
+IO,2014,117000
+Loeys Dietz,2017,872
+Common variable immunodeficiency,2015,21700
+amyotrophic lateral sclerosis,2018,17400
+Treg Suppression,2014,8120
+Psoriasis,2012,22500
+ETEC infection,2015,1360
+Atopic dermatitis,2013,13200
+Pancreatic,2015,110000
+Ischemic heart disease,2012,75200
+Many other diseases,2016,632000
+Dermatofibrosarcoma protuberans,2016,0
+Macrophage activation syndrome,2013,0
+Graft versus host disease,2013,28800
+Innate immunity,2019,12000
+Renal disease,2018,0
+Polycystic ovarian syndrome,2009,6370
+Multiple sclerosis,2018,51800
+Cardiovascular disease,2013,698000
+Type 1 Diabetes,2014,577000
+Gastric,2009,0
+viral/oncology,2013,201
+Enterotoxigenic Escherichia coli,2017,3420
+Innate immunity,2011,67600
+Cardiovascular disease,2015,463000
+Idiopathic basal ganglia calcification,2011,493
+Enterotoxigenic Escherichia coli,2013,2930
+Loeys Dietz,2015,812
+Idiopathic inflammatory myopathy,2016,2510
+M2 polarization,2018,26700
+Rheumatoid Arthritis,2009,57700
+Treg Suppression,2010,0
+Bullous pemphigoid,2016,1590
+T-Cell Activation,2019,0
+Pancreatic,2018,53900
+Hepatocellular carcinoma,2017,0
+Camurati Engleman,2013,2
+Dyshidrotic eczema,2012,174
+Uveitis,2019,0
+Multiple Sclerosis,2018,55100
+Asthma,2018,72100
+Renal disease,2014,319000
+Bullous pemphigoid,2019,316
+Enterotoxigenic Escherichia coli,2016,3170
+Parkinsons,2017,16900
+Graft versus host disease,2017,31100
+Kallman Syndrome,2009,218
+General AID,2016,205000
+Spinal Injury,2014,65300
+Nonalcoholic steatohepatitis,2014,8290
+Renal cell carcinoma,2009,39600
+Alzheimers,2009,21000
+Sjorgens,2012,7
+Psoriasis,2010,16800
+Pulmonary Arterial Hypertension,2016,33500
+Rheumatoid Arthritis,2014,77900
+Uclerative Colitis,2019,4210
+Arrhythmogenic right ventricular cardiomyopathy,2014,0
+Ulcerative Colitis,2017,21300
+Bladder cancer,2013,60200
+Ovarian Cancer,2016,67500
+Adjuvant therapy,2015,67200
+Renal disease,2016,181000
+Solid tumors,2017,62600
+Atopic dermatitis,2014,14600
+Chronic Obstructive Pulmonary Disease,2017,55300
+Enterotoxigenic Escherichia coli,2011,4120
+hemophagocytic lymphohistiocytosis,2017,1580
+Loeys Dietz,2013,630
+Dyshidrotic eczema,2019,0
+Bronchopulmonary dysplasia,2018,4720
+Enterotoxigenic Escherichia coli,2018,0
+Alzheimers,2019,10100
+Alopecia areata,2016,2270
+Pseudomonas aeruginosa,2011,38400
+Behcet's,2014,1130
+Guillian Barre syndrome,2011,198
+scleroderma,2015,7290
+Chronic Obstructive Pulmonary Disease,2019,11000
+Immunotherapy related adverse events,2016,12300
+Dipltheria,2009,1
+Stills,2013,6900
+Hemolytic uremic syndrome,2011,5290
+General AID,2012,397000
+Ischemic heart disease,2019,0
+Macular Degeneration,2019,2940
+Gastric,2019,18800
+scleroderma,2013,7600
+Hemolytic uremic syndrome,2019,799
+Sjorgens,2011,0
+Non-small cell lung cancer,2012,47200
 Chronic Obstructive Pulmonary Disease,2013,0
-Parkinsons,2019,0
+ALS/FTD,2019,213
+Transplant rejection,2011,0
+Psoriasis,2013,25400
+Clostridium difficile infection,2019,2920
+Fibrodysplasia ossificans progressiva,2016,325
+Vogt Koyanagi Harada,2015,0
+Methicillin-resistant Staphylococcus aureus,2009,0
+Alopecia areata,2013,2040
+Ovarian Cancer,2012,89900
+Cisplatin-induced AKI,2015,1550
+Uclerative Colitis,2018,13900
+systemic lupus erythematosus,2019,4630
+Uclerative Colitis,2014,11900
+Treg Suppression,2019,1690
 M2 Polarization,2014,0
-Idopathic Pulmonary Fibrosis,2019,0
-Stills,2009,0
-Type 2 Diabetes,2014,0
-Cryopyrin associated periodic syndrome,2012,0
-Nonalcoholic fatty liver disease,2011,0
+hemophagocytic lymphohistiocytosis,2009,0
+Polycystic ovarian syndrome,2019,1980
+Osteoarthritis,2011,38300
+Cryopyrin associated periodic syndrome,2018,0
+M2 polarization,2017,0
+Bullous pemphigoid,2018,1750
+Ulcerative Colitis,2010,13000
+ALS,2014,441000
+viral/oncology,2014,0
+Idopathic Pulmonary Fibrosis,2011,9330
+Osteoarthritis,2018,36700
+Arrhythmogenic right ventricular cardiomyopathy,2018,5450
+Solid tumors,2014,88800
+Type 2 Diabetes,2012,667000
+Idopathic Pulmonary Fibrosis,2018,13800
+Chronic Kidney Disease,2012,154000
+Beckwith-Wiedemann,2009,0
+Lupus,2016,45800
+ETEC infection,2019,0
+Uclerative Colitis,2011,0
+Follicle-stimulating hormone,2014,9750
+Rheumatoid Arthritis,2015,68000
+Chronic Kidney Disease,2016,101000
+Idiopathic inflammatory myopathy,2015,2310
+Uveitis,2017,10600
+Dipltheria,2019,0
+viral/oncology,2019,24
+Dendritic Cells,2017,54200
+ALS,2019,27500
+Pertussis,2017,0
+Postmenopausal Osteoperosis,2010,0
+Adjuvant therapy,2011,68400
+Cancer,2016,465000
+Cisplatin-induced AKI,2011,407
+Methicillin-resistant Staphylococcus aureus,2010,12300
+Renal cell carcinoma,2017,52100
+M2 Polarization,2009,14900
+Uveitis,2009,6450
+Cholera,2017,0
+Lupus,2014,49300
+Many other diseases,2009,0
+Cancer,2010,1200000
+Type 2 Diabetes,2010,628000
+Idiopathic basal ganglia calcification,2016,680
+Idiopathic basal ganglia calcification,2014,561
+Macular Degeneration,2014,15100
+Crohn's Disease,2019,2950
+M2 Polarization,2012,0
+Sjorgens,2010,3
+Solid tumors,2010,77300
+Rheumatoid Arthritis,2010,61400
+Macrophage activation syndrome,2014,0
+Lou Gehrig's disease,2015,1000
+Pancreatic,2014,0
+Parkinsons,2009,11800
+Idiopathic basal ganglia calcification,2012,583
+Secondary lymphedema,2013,2450
+Natural killer cells,2014,34600
+Vogt Koyanagi Harada,2017,794
+ALS/FTD,2011,0
+Bronchopulmonary dysplasia,2011,0
+Guillian Barre syndrome,2017,289
+Bladder cancer,2018,0
+Asthma,2017,73100
+Dermatofibrosarcoma protuberans,2009,596
+Renal cell carcinoma,2019,9870
+Multiple sclerosis,2011,73800
+Multiple Sclerosis,2009,62000
+Solid tumors,2019,13700
+DC activation,2018,56500
+Cisplatin-induced AKI,2016,1020
+Nonalcoholic steatohepatitis,2012,0
+Camurati Engleman,2018,1
+Stills,2011,5790
+Coronary heart disease,2012,212000
+Idiopathic inflammatory myopathy,2010,1600
+Osteoarthritis,2017,43900
+brittle bone diseases,2015,0
+Nonalcoholic fatty liver disease,2017,18800
+General AID,2010,402000
+Methicillin-resistant Staphylococcus aureus,2016,0
+Multiple Sclerosis,2010,66600
+Multiple sclerosis,2017,68800
+Osteoperosis,2010,31
+Dermatofibrosarcoma protuberans,2012,622
+IO,2017,112000
+DC activation,2014,207000
+Stimulate cold tumors,2014,19700
+IO,2011,126000
+ALS,2013,872000
+Spinal Injury,2012,67100
+systemic lupus erythematosus,2016,26000
+hepatic cirrhosis,2014,0
+Non-small cell lung cancer,2017,58000
+Nonalcoholic fatty liver disease,2019,4330
+Dyshidrotic eczema,2016,148
+Spinal Injury,2016,0
+Rheumatoid Arthritis,2019,10400
+Pertussis,2014,10200
+Arrhythmogenic right ventricular cardiomyopathy,2013,0
+Dipltheria,2018,0
+Dendritic Cells,2019,13100
+Rheumatoid Arthritis,2013,83900
+Type 1 Diabetes,2011,631000
+Chronic Obstructive Pulmonary Disease,2012,53400
+Polycystic ovarian syndrome,2018,11900
+small molecule biologic mimic,2013,18100
+Macrophage activation syndrome,2010,25800
+Cisplatin-induced AKI,2013,724
+Chronic Kidney Disease associated Heart Failure,2012,56800
+Beckwith-Wiedemann,2018,1160
+Cardiovascular disease,2014,595000
+Sjorgens,2015,5
+Follicle-stimulating hormone,2017,10700
+Dendritic Cells,2014,83000
+Transplant rejection,2018,20500
+Idopathic Pulmonary Fibrosis,2012,0
+hepatic cirrhosis,2012,23000
+DC activation,2010,240000
+Stimulate cold tumors,2016,0
+Renal disease,2012,390000
+Alzheimers,2015,0
+Crohn's Disease,2011,0
+Asthma,2016,96800
+Stimulate cold tumors,2012,0
+Arrhythmogenic right ventricular cardiomyopathy,2019,0
+M2 Polarization,2019,5360
+Ulcerative Colitis,2012,16100
+Secondary lymphedema,2015,2380
+DC activation,2013,228000
+Bladder cancer,2014,61100
+Solid tumors,2011,82500
+Alopecia areata,2009,1360
+Bronchopulmonary dysplasia,2015,3830
+Angina,2016,33600
+Nonalcoholic steatohepatitis,2016,0
+Cardiovascular disease,2016,271000
+Ischemic heart disease,2018,40200
+Celiac Disease,2017,12700
+Pulmonary Arterial Hypertension,2011,27200
+Bladder cancer,2010,44800
+Ischemic heart disease,2010,66800
+Natural killer cells,2017,34300
+Bronchopulmonary dysplasia,2014,3850
+Ovarian Cancer,2019,12700
+Macular Degeneration,2017,15600
+amyotrophic lateral sclerosis,2014,14700
+Cryopyrin associated periodic syndrome,2019,132
+Coronary heart disease,2010,192000
+Type 2 Diabetes,2009,586000
+Diabetic Cardiomyopathy,2015,0
+Cryopyrin associated periodic syndrome,2013,544
+Idiopathic inflammatory myopathy,2019,533
+Guillian Barre syndrome,2009,195
+X-linked hyper-IgM syndrome,2012,295
+Idiopathic basal ganglia calcification,2017,599
+Many other diseases,2015,0
+Transplant rejection,2014,22300
+Dendritic Cells,2010,82100
+Diabetic Cardiomyopathy,2018,19400
+X-linked hyper-IgM syndrome,2015,0
+Gastric,2017,88400
+Stills,2012,5890
+Dipltheria,2016,0
+Fibrodysplasia ossificans progressiva,2017,311
+Asthma,2010,101000
+Camurati Engleman,2019,0
+Pertussis,2019,0
+Chronic Kidney Disease associated Heart Failure,2013,62800
+Innate immunity,2015,70100
+Alopecia areata,2014,2020
+Transplant rejection,2010,17800
+Chronic Kidney Disease,2011,125000
+Bronchopulmonary dysplasia,2010,2410
+Graft versus host disease,2014,0
+Clostridium difficile infection,2013,15200
+Postmenopausal Osteoperosis,2011,9
+Cardiovascular Disease,2014,630000
+systemic lupus erythematosus,2013,24500
+Non-small cell lung cancer,2016,68100
+Immunotherapy related adverse events,2011,6490
+Nonalcoholic steatohepatitis,2009,0
+Gastric,2016,120000
+Fibrodysplasia ossificans progressiva,2013,285
+Methicillin-resistant Staphylococcus aureus,2018,19900
+Pertussis,2016,9890
+Graft versus host disease,2015,29700
+Renal disease,2011,351000
+Angina,2012,37300
+Chronic Obstructive Pulmonary,2013,59200
+Cardiac Fibrosis,2011,0
+brittle bone diseases,2014,5070
+Adjuvant therapy,2017,53800
+Diabetic Cardiomyopathy,2009,11200
+Uclerative Colitis,2013,0
+Behcet's,2012,1020
+Cholera,2009,17800
+Cryopyrin associated periodic syndrome,2009,246
+Frontotemporal Dementia,2010,4230
+Chronic Kidney Disease,2010,0
+Non-small cell lung cancer,2019,10100
+hemophagocytic lymphohistiocytosis,2013,1210
+Dipltheria,2017,0
+Type 2 Diabetes,2018,127000
+ALS/FTD,2016,712
+Lupus,2011,43300
+IO,2009,130000
+Behcet's,2011,850
+Spinal Injury,2009,0
+Chronic Kidney Disease,2018,0
+Methicillin-resistant Staphylococcus aureus,2013,0
+Stills,2015,7280
+Dyshidrotic eczema,2013,123
+Cardiac Fibrosis,2013,36200
+ALS,2012,607000
+Alzheimers,2018,0
+Idopathic Pulmonary Fibrosis,2014,0
+DC activation,2011,212000
+Vogt Koyanagi Harada,2010,452
+Cisplatin-induced Acute Kidney Injury,2012,2760

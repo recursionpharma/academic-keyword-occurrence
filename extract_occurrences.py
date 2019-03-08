@@ -1,17 +1,24 @@
 #!/usr/bin/env python
 # By: Volker Strobel
 from datetime import datetime
+import multiprocessing as mp
+import threading as thr
 import os
+import random
 import re
 import sys
 import time
+import urllib
+import queue
 
+from selenium import webdriver
 import backoff
 from bs4 import BeautifulSoup
 import docopt
 import pandas as pd
 import progressbar
 import requests
+import requests.auth
 
 
 __doc__ = """Extract Occurrences.
@@ -34,43 +41,60 @@ Options:
 
 
 @backoff.on_exception(backoff.expo, Exception, max_time=10)
-def get_num_results(search_term, start_date, end_date, cookies=None):
+def get_num_results(search_term, start_date, end_date, results_q):
     """
     Helper method, sends HTTP request and returns response payload.
     """
 
+    auth = requests.auth.HTTPProxyAuth('4f65916665ca4f597997d004b2931e11', '590af9555d67a0291afbfff63501d85e')
+    proxy = get_proxy()
+    proxies = {"http": f"http://{proxy}", "https": f"http://{proxy}"}
+
     # Open website and read html
-    headers = {"user_agent": 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36'}
-    query_params = { 'q' : search_term, 'as_ylo' : start_date, 'as_yhi' : end_date, "as_vis": 1, "hl": "en", "as_sdt": "1,5"}
-    url = "https://scholar.google.com/scholar"
-    resp = requests.get(url, params=query_params, headers=headers, cookies=cookies)
+    headers = {"User-Agent": 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36'}
+    query_params = { 'q' : search_term, 'as_ylo' : start_date, 'as_yhi' : end_date, "as_vis": 1, "hl": "en"}
+    url = "https://scholar.google.com/scholar?as_sdt=1,5&"
+    # url = "https://scholar.google.com/scholar?" + '&'.join(f"{key}={str(val)}" for key, val in query_params.items())
+    # url = "http://zend2.com/bro.php?b=12&f=norefer&u=" + urllib.parse.quote(url)
+    # driver = webdriver.Chrome()
+    # driver.get(url)
+    # resp = requests.get(url, params=query_params, headers=headers, cookies=cookies, proxies=proxies)
+    resp = requests.get(url, params=query_params, headers=headers, proxies=proxies, auth=auth, timeout=5)
 
     # Create soup for parsing HTML and extracting the relevant information
     soup = BeautifulSoup(resp.text, 'html.parser')
+    # soup = BeautifulSoup(driver.page_source, 'html.parser')
     div_results = soup.find("div", {"id": "gs_ab_md"}) # find line 'About x results (y sec)
     if not div_results:
         raise Exception(f"Couldn't extract number of results for {search_term} {start_date} {end_date} {resp.text}")
+        # raise Exception(f"Couldn't extract number of results for {search_term} {start_date} {end_date} {driver.page_source}")
 
-    res = re.findall(r'(\d+),?(\d+)?,?(\d+)?\s', div_results.text) # extract number of search results
+    res = re.findall(r'(\d+),?(\d+)?,?(\d+)?\s', div_results.text) # extract number of search results()
     num_results = 0 if not res else int(''.join(res[0])) # convert string to number
 
-    return num_results, resp.cookies
+    return num_results
+
+
+def get_proxy():
+    url = 'http://falcon.proxyrotator.com:51337/'
+    params = dict(
+        apiKey='43XQbFJeWvhLpMqx5awTyY8RZu9PE2KV'
+    )
+    resp = requests.get(url=url, params=params)
+    return resp.json()['proxy']
 
 
 def get_range(search_terms, start_date, end_date, existing=None, output_filepath=None):
 
-    results = existing if not existing.empty else pd.DataFrame(columns=["search_term", "year", "num_results"])
+    results = existing if existing is not None and not existing.empty else pd.DataFrame(columns=["search_term", "year", "num_results"])
     existing_term_years = set((res[0], res[1]) for res in results.values.tolist())
     term_years = set((term, year) for term in search_terms
                      for year in range(start_date, end_date + 1)) - existing_term_years
 
-    cookies = None
     for term, year in progressbar.progressbar(term_years):
-        num_results, cookies = get_num_results(term, year, year, cookies=cookies)
-        current_results = {"search_term": term, "year": year, "num_results": num_results}
-        results = results.append(pd.DataFrame(data=[current_results]), sort=False)
+        num_results = get_num_results(term, year, year, None)
+        results = results.append(pd.DataFrame(data=[{"search_term": term, "year": year, "num_results": num_results}]), sort=False)
         results.to_csv(output_filepath, index=False)
-        time.sleep(2)
 
 
 def main():
